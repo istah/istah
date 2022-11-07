@@ -1,4 +1,3 @@
 - 👋 Hi, I’m @istah
-- 👀 I’m interested in Flutter, Python and beer.
+- 👨‍💻 Programming in Python and Flutter at the current moment. 
 - 📫 You can reach me @ massalin@inbox.ru
-
