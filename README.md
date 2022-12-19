@@ -1,3 +1,4 @@
-- 👋 Hi, I’m @istah
+- 👋 Hi, Issatay Massalin is here.
 - 👨‍💻 Programming in Flutter at the current moment. 
-- 📫 You can reach me @ massalin@inbox.ru
+- 🌍 Developing apps and websites with Flutter.
+- 📫 For more info please visit https://massalin.me
