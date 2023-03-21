@@ -1,4 +1,4 @@
 - 👋 Hi, Issatay Massalin is here.
-- 👨‍💻 Programming in Flutter at the current moment. 
-- 🌍 Developing apps and websites with Flutter.
+- 👨‍💻 SQL, Python, Flutter, HTML/CSS.
+- 🌍 Wannabe data analyst.
 - 📫 For more info please visit https://massalin.me
