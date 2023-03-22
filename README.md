@@ -1,4 +1,4 @@
 - 👋 Hi, Issatay Massalin is here.
 - 👨‍💻 SQL, Python, Flutter, HTML/CSS.
-- 🌍 Wannabe data analyst.
+- 🌍 Data analyst wannabe.
 - 📫 For more info please visit https://massalin.me
