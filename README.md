@@ -1,6 +1,2 @@
 - 👋 Hi, Issatay Massalin is here.
-- 👨‍💻 Some types of SQL, Python, Flutter.
-- Firebase or Supabase? Convince me.
-- Currently working at KMG Rometrol in Romania, Bucharest.
-- 🌍 Data analyst wannabe.
-- 📫 For more info please visit https://massalin.me
+- 👨‍💻 SQL, Python, Flutter, currently studying for full stack development.
