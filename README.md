@@ -1,7 +1,7 @@
 <h1 align="center">Issatay Massalin · istah</h1>
 
 <p align="center">
-  Full-stack developer in Kazakhstan. I turn manual business operations into reliable, tested software.
+  Full-stack developer based in Romania. I turn manual business operations into reliable, tested software.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 ## Featured Work
 
-**[Balasana](https://balasana.kz)** is a live booking and CRM platform for a yoga studio, used daily by clients and teachers in Russian and Kazakh.
+**[Balasana](https://balasana.kz)** is a live booking and CRM platform for a yoga studio, used daily by clients and teachers in Kazakhstan, in Russian and Kazakh.
 
 - Server-side booking and pass logic, QR check-in, waitlists, role-based admin
 - Telegram bot with reminders, digests and alerts that cannot double-send
