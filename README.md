@@ -6,15 +6,14 @@
 
 <p align="center">
   <a href="https://balasana.kz">Balasana</a> •
-  <a href="https://massalin.me">Website</a> •
   <a href="mailto:Massalin.issatay@gmail.com">Email</a>
 </p>
 
 ## GitHub Snapshot
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/istah/istah/output/profile/stats.svg" alt="GitHub stats card" width="49%" />
-  <img src="https://raw.githubusercontent.com/istah/istah/output/profile/top-langs.svg" alt="Top languages card" width="49%" />
+  <img src="https://raw.githubusercontent.com/istah/istah/output/profile/yoy.svg" alt="Contributions, last year versus this year" width="49%" />
+  <img src="https://raw.githubusercontent.com/istah/istah/output/profile/languages.svg" alt="Languages, last year versus this year" width="49%" />
 </p>
 
 ---
