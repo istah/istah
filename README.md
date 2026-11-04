@@ -1,11 +1,12 @@
 <h1 align="center">Issatay Massalin · istah</h1>
 
 <p align="center">
-  Full-stack developer based in Romania. I turn manual business operations into reliable, tested software.
+  Full-stack and AI engineer based in Romania. I turn complex, manual operations into reliable, tested software.
 </p>
 
 <p align="center">
   <a href="https://balasana.kz">Balasana</a> •
+  <a href="https://t.me/massalin">Telegram</a> •
   <a href="mailto:Massalin.issatay@gmail.com">Email</a>
 </p>
 
@@ -18,25 +19,41 @@
 
 ---
 
+## What I Do
+
+- At **Rompetrol**, I build the Unified Analytical Platform: one system that connects the oil chain from crude acquisition and refining through trading and logistics to retail, so the group reads the whole chain on a single screen
+- Design data pipelines from SAP into Microsoft Fabric (bronze, silver, gold), with reconciliation against figures the business already publishes
+- Build AI features on top of that data: sentiment and topic analysis, summaries, natural-language questions over company data
+- Design Zero-Trust access (SSO, audit trail) so every domain sits behind one secure door
+- On the side, ship **Balasana**, a live product used every day by real clients
+
 ## Featured Work
 
-**[Balasana](https://balasana.kz)** is a live booking and CRM platform for a yoga studio, used daily by clients and teachers in Kazakhstan, in Russian and Kazakh.
+### Rompetrol Unified Analytical Platform
+
+Digitizing the fuel chain end to end: **crude acquisition → refining → trading → logistics → retail → the pump**. Each domain (refinery, retail, trading, logistics, marketing, HQ) is built independently and then joined onto one screen, with an AI layer on top.
+
+- Composable-block architecture, so each domain team ships on its own and the whole still fits together
+- SAP-to-Fabric extraction with idempotent deltas and honest data-quality verdicts (proven, failed or unverified, never silently "ok")
+- Zero-Trust security design with SSO and SIEM integration
+- Review Intelligence: Google Maps review mining across the Romanian station network, with sentiment and topic analysis for Rompetrol and its competitors
+
+### [Balasana](https://balasana.kz)
+
+Booking and CRM platform for a yoga studio in Kazakhstan, in Russian and Kazakh.
 
 - Server-side booking and pass logic, QR check-in, waitlists, role-based admin
 - Telegram bot with reminders, digests and alerts that cannot double-send
 - A/B-tested student experience, Firestore rules covered by automated tests
-- Tested before every release: lint, build and emulator checks gate each deploy
+- Every release gated by lint, build and emulator checks
 
-## What I Do
+## Education
 
-- Ship products from data model to production release
-- Automate operations: bookings, notifications, reporting
-- Secure and harden Firebase apps: roles, rules, App Check, backups
-- Apply AI tooling to cut administrative work
+**AI / LLM Engineering**, nFactorial. RAG pipelines with evaluation, agents with tool-calling and memory, voice and video AI, SFT fine-tuning. Final project: salyq.ai.
 
 ## Tech
 
-`Python` `SQL` `JavaScript` `Dart` · `React` `Vite` `Flutter` `Node.js` · `Firebase` `GitHub Actions` · `Telegram Bot API` `Claude Code` `MCP`
+`Python` `SQL` `JavaScript` `TypeScript` `Dart` `Swift` · `React` `Vite` `FastAPI` `Flutter` `Node.js` · `Microsoft Fabric` `Azure` `Firebase` `GitHub Actions` · `OpenAI` `Claude Code` `MCP` `RAG`
 
 ## Contact
 
