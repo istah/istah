@@ -36,27 +36,27 @@ const rows = [
 
 const text = rows
   .map(([label, key], i) => {
-    const y = 76 + i * 16;
+    const y = 98 + i * 23;
     return `<text x="25" y="${y}" class="l">${label}</text>
   <text x="330" y="${y}" class="v" text-anchor="end">${fmt(a[key])}</text>
   <text x="430" y="${y}" class="v" text-anchor="end">${fmt(b[key])}</text>`;
   })
   .join('\n  ');
 
-const svg = `<svg width="467" height="190" viewBox="0 0 467 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contributions ${years[0]} vs ${years[1]}">
+const svg = `<svg width="467" height="250" viewBox="0 0 467 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contributions ${years[0]} vs ${years[1]}">
   <style>
-    .t { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
-    .h { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
-    .l { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .v { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .n { font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
+    .t { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .h { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .l { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .v { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .n { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" width="466" height="189" fill="#fffefe"/>
-  <text x="25" y="35" class="t">Year over year</text>
-  <text x="330" y="58" class="h" text-anchor="end">${years[0]}</text>
-  <text x="430" y="58" class="h" text-anchor="end">${years[1]} (to date)</text>
+  <rect x="0.5" y="0.5" rx="4.5" width="466" height="249" fill="#fffefe"/>
+  <text x="25" y="40" class="t">Year over year</text>
+  <text x="330" y="72" class="h" text-anchor="end">${years[0]}</text>
+  <text x="430" y="72" class="h" text-anchor="end">${years[1]} (to date)</text>
   ${text}
-  <text x="25" y="180" class="n">Counts from GitHub contributions. Private work is counted, never named.</text>
+  <text x="25" y="238" class="n">Counts from GitHub contributions. Private work is counted, never named.</text>
 </svg>
 `;
 writeFileSync('profile/yoy.svg', svg);
@@ -73,27 +73,27 @@ function shares(c) {
   const total = Object.values(by).reduce((x, y) => x + y, 0) || 1;
   return Object.entries(by).sort((x, y) => y[1] - x[1]).slice(0, 4).map(([l, n]) => [l, (n / total) * 100]);
 }
-const column = (x, label, list) => `<text x="${x}" y="58" class="h">${esc(label)}</text>
+const column = (x, label, list) => `<text x="${x}" y="72" class="h">${esc(label)}</text>
   ${list.map(([l, pct], i) => {
-    const y = 80 + i * 24;
+    const y = 104 + i * 32;
     return `<text x="${x}" y="${y}" class="l">${esc(l)}</text>
-  <text x="${x + 190}" y="${y}" class="v" text-anchor="end">${pct.toFixed(1)}%</text>
-  <rect x="${x}" y="${y + 5}" width="190" height="5" rx="2.5" fill="#e4e8ec"/>
-  <rect x="${x}" y="${y + 5}" width="${Math.max(2, (pct / 100) * 190).toFixed(1)}" height="5" rx="2.5" fill="${COLORS[l] || '#8b949e'}"/>`;
+  <text x="${x + 200}" y="${y}" class="v" text-anchor="end">${pct.toFixed(1)}%</text>
+  <rect x="${x}" y="${y + 8}" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="${x}" y="${y + 8}" width="${Math.max(3, (pct / 100) * 200).toFixed(1)}" height="7" rx="3.5" fill="${COLORS[l] || '#8b949e'}"/>`;
   }).join('\n  ')}`;
-const lang = `<svg width="467" height="190" viewBox="0 0 467 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages ${years[0]} versus ${years[1]}">
+const lang = `<svg width="467" height="250" viewBox="0 0 467 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages ${years[0]} versus ${years[1]}">
   <style>
-    .t { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
-    .h { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
-    .l { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .v { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
-    .n { font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
+    .t { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .h { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .l { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .v { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .n { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" width="466" height="189" fill="#fffefe"/>
-  <text x="25" y="35" class="t">Languages, year over year</text>
+  <rect x="0.5" y="0.5" rx="4.5" width="466" height="249" fill="#fffefe"/>
+  <text x="25" y="40" class="t">Languages, year over year</text>
   ${column(25, String(years[0]), shares(a))}
-  ${column(250, `${years[1]} (to date)`, shares(b))}
-  <text x="25" y="180" class="n">Share of commits to public repositories, by primary language.</text>
+  ${column(240, `${years[1]} (to date)`, shares(b))}
+  <text x="25" y="238" class="n">Share of commits to public repositories, by primary language.</text>
 </svg>
 `;
 writeFileSync('profile/languages.svg', lang);
