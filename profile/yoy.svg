@@ -1,0 +1,32 @@
+<svg width="467" height="250" viewBox="0 0 467 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contributions 2025 vs 2026">
+  <style>
+    .t { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .h { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .l { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .v { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .n { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" width="466" height="249" fill="#fffefe"/>
+  <text x="25" y="40" class="t">Year over year</text>
+  <text x="330" y="72" class="h" text-anchor="end">2025</text>
+  <text x="430" y="72" class="h" text-anchor="end">2026 (to date)</text>
+  <text x="25" y="98" class="l">Commits (public)</text>
+  <text x="330" y="98" class="v" text-anchor="end">42</text>
+  <text x="430" y="98" class="v" text-anchor="end">76</text>
+  <text x="25" y="121" class="l">Private contributions</text>
+  <text x="330" y="121" class="v" text-anchor="end">102</text>
+  <text x="430" y="121" class="v" text-anchor="end">3,681</text>
+  <text x="25" y="144" class="l">Pull requests</text>
+  <text x="330" y="144" class="v" text-anchor="end">0</text>
+  <text x="430" y="144" class="v" text-anchor="end">0</text>
+  <text x="25" y="167" class="l">Issues</text>
+  <text x="330" y="167" class="v" text-anchor="end">0</text>
+  <text x="430" y="167" class="v" text-anchor="end">0</text>
+  <text x="25" y="190" class="l">Code reviews</text>
+  <text x="330" y="190" class="v" text-anchor="end">0</text>
+  <text x="430" y="190" class="v" text-anchor="end">0</text>
+  <text x="25" y="213" class="l">New repositories</text>
+  <text x="330" y="213" class="v" text-anchor="end">2</text>
+  <text x="430" y="213" class="v" text-anchor="end">2</text>
+  <text x="25" y="238" class="n">Counts from GitHub contributions. Private work is counted, never named.</text>
+</svg>
