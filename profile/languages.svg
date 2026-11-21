@@ -1,0 +1,34 @@
+<svg width="467" height="250" viewBox="0 0 467 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Languages 2025 versus 2026">
+  <style>
+    .t { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .h { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .l { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .v { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .n { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" width="466" height="249" fill="#fffefe"/>
+  <text x="25" y="40" class="t">Languages, year over year</text>
+  <text x="25" y="72" class="h">2025</text>
+  <text x="25" y="104" class="l">JavaScript</text>
+  <text x="225" y="104" class="v" text-anchor="end">54.8%</text>
+  <rect x="25" y="112" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="25" y="112" width="109.5" height="7" rx="3.5" fill="#f1e05a"/>
+  <text x="25" y="136" class="l">Dart</text>
+  <text x="225" y="136" class="v" text-anchor="end">45.2%</text>
+  <rect x="25" y="144" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="25" y="144" width="90.5" height="7" rx="3.5" fill="#00B4AB"/>
+  <text x="240" y="72" class="h">2026 (to date)</text>
+  <text x="240" y="104" class="l">Python</text>
+  <text x="440" y="104" class="v" text-anchor="end">89.5%</text>
+  <rect x="240" y="112" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="240" y="112" width="178.9" height="7" rx="3.5" fill="#3572A5"/>
+  <text x="240" y="136" class="l">JavaScript</text>
+  <text x="440" y="136" class="v" text-anchor="end">9.2%</text>
+  <rect x="240" y="144" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="240" y="144" width="18.4" height="7" rx="3.5" fill="#f1e05a"/>
+  <text x="240" y="168" class="l">HTML</text>
+  <text x="440" y="168" class="v" text-anchor="end">1.3%</text>
+  <rect x="240" y="176" width="200" height="7" rx="3.5" fill="#e4e8ec"/>
+  <rect x="240" y="176" width="3.0" height="7" rx="3.5" fill="#e34c26"/>
+  <text x="25" y="238" class="n">Share of commits to public repositories, by primary language.</text>
+</svg>
